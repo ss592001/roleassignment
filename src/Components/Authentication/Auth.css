@@ -1,0 +1,73 @@
+*{
+    font-family: sans-serif;
+}
+.auth-container{
+width: 30%;
+padding: 2%;
+height: 40vh;
+border-radius: 1vw;
+background-color: #041a23;
+box-shadow: 2px 2px 14px 3px rgb(104, 104, 104);
+position: fixed;
+top: 20%;
+left: 32%;
+
+
+
+}
+
+.auth-head{
+    color: #16AEE8;
+    font-size: 2vw;
+    font-weight: 600;
+}
+
+.auth-input-email , .auth-input-password{
+all: unset;
+border: 1.4px solid #16AEE8;
+padding: 1%;
+border-radius: .7vw;
+width: 90%;
+height: 6vh;
+font-size: 1.5vw;
+margin-top: 4%;
+color: #16AEE8;
+
+
+}
+.auth-input-email::placeholder , .auth-input-password::placeholder{
+    color: #16AEE8;
+}
+.auth-submit-button{
+    width: 50%;
+    height: 8vh;
+    padding: 1%;
+    border-radius: .7vw;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5vw;
+    color: white;
+    background-color: #16AEE8;
+    margin-top: 3%;
+    border: 0;
+}
+.auth-submit-button:hover{
+ background-color: #093647;
+ transition-duration: .3s;
+ cursor: pointer;
+}
+.orloginstatment{
+ color: green;
+ font-size: 1.3vw;
+ margin-top: 3%;
+}
+.orlogin{
+    color: #16AEE8;
+    cursor: pointer;
+}
+.orlogin:hover{
+    color: #128bba;
+
+}

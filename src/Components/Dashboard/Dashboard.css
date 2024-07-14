@@ -1,0 +1,230 @@
+.sidebar{
+    width: 25%;
+    height: 100vh;
+    background-color: #16AEE8;
+    position: absolute;
+}
+.home-topbar{
+    position: absolute;
+    display: flex;
+  
+    align-items: center;
+    width: 75%;
+    height: 12vh;
+    background-color: #03202c;
+    margin-left: 25%;
+}
+.home-footer{
+    position: fixed;
+    width: 75%;
+    height: 10vh;
+    background-color: #03202c;
+    left: 25%;
+    bottom: 0;
+}
+.sidebar-items{
+    font-size: 1.5vw;
+    color: white;
+    margin-left: 10%;
+    cursor: pointer;
+    margin-top: 8%;
+}
+.navbar-items-box{
+margin-top: 30%;
+}
+.logout{
+    margin-top: 10%;
+    border: 1px solid whitesmoke ;
+    width: 30%;
+    padding: 2%;
+    border-radius: .4vw;
+
+}
+.profile-icon{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+ background-color: #052a38;
+ border-radius: 50%;
+ font-size: 3vw;
+ height: 4.5vw;
+ width: 4.5vw;
+}
+.profile-identifier{
+    position: fixed;
+    left: 5px;
+    display: flex;
+    color: white;
+    width: auto;
+
+}
+.profile-name{
+    margin-top: 10%;
+    font-size: 2vw;
+
+}
+.profile-box{
+    overflow: scroll;
+    position: fixed;
+    width: 60%;
+    height: 47vh;
+    padding:3%;
+    border-radius: 1vw;
+    margin-left: 30%;
+    margin-top: 20vh;
+    box-shadow: 2px 2px 14px -3px black;
+
+}
+.usershead{
+
+    font-size: 2vw;
+    color: #16AEE8;
+    width: 100%;
+
+
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+.remove , .update{
+    padding: 3%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 5vh;
+    border: 0px;
+    margin-left: 5%;
+    border-radius: .4vw;
+    cursor: pointer;
+
+}
+.remove{
+    /* display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center; */
+    
+    color: white;
+    background-color: red;
+}
+.update{
+    padding: 3%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    margin-top: 5%;
+    height: 5vh;
+    border: 0px;
+    margin-left: 5%;
+    border-radius: .4vw;
+    cursor: pointer;
+    color: white;
+    background-color: #16AEE8;
+}
+.newrolebt{
+    border: 0;
+    background-color: #16AEE8;
+    color: white;
+    border-radius: .4vw;
+    width: 30%;
+    height: 7vh;
+    font-size: 2vw;
+    margin-left: 35%;
+    cursor: pointer;
+}
+.roletable{
+    margin-top: 5%;
+}
+
+
+/* src/Popup.css */
+.popup-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+
+  
+  .popup {
+    width: 50%;
+    height: 40vh;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  .popup2 {
+    width: 50%;
+    height: 60vh;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .popup button {
+   position: fixed;
+   top: 2px;
+   right: 2px;
+    padding: 10px 20px;
+    border: none;
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .closebtn{
+    position: fixed;
+    top: 2px;
+    right: 2px;
+     padding: 10px 20px;
+     border: none;
+     background: #007bff;
+     color: white;
+     cursor: pointer;
+     border-radius: 5px;
+  }
+  
+  .popup button:hover {
+    background: #0056b3;
+  }
+  .savebtn{
+    width: 30%;
+    height: 7vh;
+    color: white;
+    background-color: #007bff;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: .7vw;
+    font-size: 1.5vw;
+    margin-left: 35%;
+    margin-top: 3%;
+    cursor: pointer;
+  }
+  
