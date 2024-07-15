@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+SignUp Page
+![Screenshot 2024-07-15 220237](https://github.com/user-attachments/assets/d9450092-7564-4fdc-834b-90790aafdc4e)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+SUPER ADMIN LOGIN FEATURES -
 
-## Available Scripts
+Login Page (login for super admin : email- superadmin@gmail.com and password- superadmin)
+![Screenshot 2024-07-15 220237](https://github.com/user-attachments/assets/e996f386-6e0f-4879-aeb1-bba797c9bb31)
 
-In the project directory, you can run:
+Super Admin Dashboard with User Management Tab (use Remove button to remove any user and Update button to update the role of the user)
+![Screenshot 2024-07-15 220316](https://github.com/user-attachments/assets/14a39828-9559-48fc-a477-c71493fa86a9)
 
-### `npm start`
+Update User 
+![Screenshot 2024-07-15 220416](https://github.com/user-attachments/assets/8656645a-9c1a-45d2-82b3-65fd1beb9e0a)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Role Management Tab (Use Remove button to remove any role and New Role button to create a new role)
+![Screenshot 2024-07-15 220336](https://github.com/user-attachments/assets/18aace37-a428-4370-a944-933d2241b448)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Create a New Role
+![Screenshot 2024-07-15 220356](https://github.com/user-attachments/assets/980fca80-1e5c-40d3-b599-f88aaecf5ce0)
 
-### `npm test`
+NORMAL USER LOGIN -
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Normal user with assigned role as Admin and some selected features-
+![Screenshot 2024-07-15 221440](https://github.com/user-attachments/assets/35df17c9-8be5-4da0-b6c1-5bb761db1696)
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+NORMAL USER WITHOUT ANY ROLE ASSIGNED (Default role assigned as user)
+![Screenshot 2024-07-15 221702](https://github.com/user-attachments/assets/3df33d27-e7fa-4a76-b0b7-f57762501caa)
